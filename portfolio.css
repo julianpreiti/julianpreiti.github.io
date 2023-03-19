@@ -1,0 +1,149 @@
+.cover-image {
+    display: flex;
+    justify-content: center;
+    max-width: 1206px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+    .cover-image img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+.project-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-section-title {
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 38px;
+    color: #0F0F0F;
+}
+
+.project-section-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .project-section-list strong {
+        color: #0F0F0F;
+    }
+
+    .project-section-list li {
+        font-size: 18px;
+        margin: 0 20px;
+        color: #333333;
+    }
+
+.project-background {
+    background-color: #FEF8F6;
+    margin: 0;
+    min-width: 100%;
+}
+
+.project {
+    padding-top: 95px;
+    display: flex;
+    flex-direction: column;
+    max-width: 804px;
+    margin: 0 auto;
+    padding-bottom: 95px;
+    text-align: left;
+    color: #0F0F0F;
+}
+
+.project-overview-title {
+    order: 1;
+    font-size: 36px;
+}
+
+.project p {
+    order: 2;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.button-huemul {
+    display: block;
+    width: fit-content;
+    margin: 60px auto;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 48px;
+    color: #0F0F0F;
+    text-decoration: none;
+    border: 2px solid #4D4D4D;
+    border-radius: 54px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    .button-huemul:hover {
+        background-color: #E85730;
+        border: 2px solid #E85730;
+        transition: ease-in-out 0.3s;
+        color: #F2F2F2;
+    }
+
+.button-huemul:focus {
+    outline: none;
+}
+.more-projects {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.more-projects-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.project-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.project-item a {
+    text-decoration: none;
+
+}
+
+    .project-item img {
+        width: 100%;
+        display: block;
+        border-radius: 18px;
+    }
+
+.project-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    color: #0F0F0F;
+}
+

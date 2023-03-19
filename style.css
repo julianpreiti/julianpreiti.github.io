@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    animation: fade-in 1s ease forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+#home {
+    padding-inline: 1rem;
+}
+
+header {
+    min-height: 85px;
+    max-width: 1206px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    position: relative;
+}
+
+.logo {
+    cursor: pointer;
+    width: calc(100% - 304px);
+}
+
+    .logo img:hover {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    }
+
+.nav {
+    position: relative;
+}
+
+    .nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+.nav-link {
+    list-style: none;
+    text-align: center;
+}
+
+    .nav-link a {
+        font-size: 20px;
+        font-weight: 600;
+        color: #4D4D4D;
+        text-decoration: none;
+    }
+
+        .nav-link a:hover {
+            color: #0F0F0F;
+        }
+
+.mail-button {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    width: calc(100% - 304px);
+}
+
+    .mail-button:hover {
+        color: #0F0F0F;
+    }
+
+.h1-main {
+    padding-top: 54px;
+    color: #0F0F0F;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    max-width: 1206px;
+    margin: 0 auto;
+}
+
+.h2-main {
+    padding-top: 18px;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    max-width: 1206px;
+    max-width: 1206px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+    justify-content: center;
+    max-width: 1206px;
+}
+
+
+.card {
+    padding-bottom: 24px;
+    transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+    .card a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .card img {
+        max-width: 576px;
+    }
+
+    .card h3 {
+        color: #0F0F0F;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+
+    .card p {
+        color: #333333;
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 6px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.container-about {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1206px;
+    margin: 0 auto;
+    gap: 48px;
+    justify-content: center;
+    padding-bottom: 144px;
+    padding-top: 144px;
+}
+
+.text-about {
+    width: 40%;
+}
+
+.about-h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: #0F0F0F;
+}
+
+    .about-h1 span {
+        font-size: 1em;
+    }
+
+.about-me {
+    width: 100%;
+    color: #333333;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+    .about-me a {
+        text-decoration: none;
+        color: #64B6DC;
+        font-size: 18px;
+    }
+
+    .about-me p {
+        text-align: left;
+        margin-bottom: 0.5em;
+        font-size: 18px;
+    }
+
+.contact-background {
+    background-color: #1C1D20;
+    margin: 0;
+    min-width: 100%;
+}
+
+.contact {
+    padding-top: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1206px;
+    margin: 0 auto;
+    padding-bottom: 196px;
+}
+
+.perfil {
+    max-width: 200px;
+}
+
+.contact h3 {
+    color: #F2F2F2;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.contact-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    padding: 18px 48px;
+    color: #F2F2F2;
+    text-decoration: none;
+    border: 2px solid #4D4D4D;
+    border-radius: 54px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    .email:hover {
+        background-color: #990411;
+        border: 2px solid #990411;
+        transition: ease-in-out 0.3s;
+    }
+
+    .email:focus {
+        outline: none;
+    }
+
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 48px;
+    color: #F2F2F2;
+    text-decoration: none;
+    border: 2px solid #4D4D4D;
+    border-radius: 54px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.linkedin-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.linkedin:hover {
+    background-color: #990411;
+    border: 2px solid #990411;
+    transition: ease-in-out 0.3s;
+}
+
+.linkedin:focus {
+    outline: none;
+}
+
+
+.team {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 44px;
+}
+
+.footer-container {
+    background-color: #1C1D20;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1206px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    box-sizing: border-box;
+    border-top: 1px solid #4D4D4D;
+    padding-top: 36px;
+}
+
+.footer-left {
+    flex: 1;
+    color: #808080;
+    font-size: 16px;
+}
+
+.footer-center {
+    flex: 2;
+    text-align: center;
+}
+
+    .footer-center ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .footer-center ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+            .footer-center ul li a {
+                text-decoration: none;
+                color: #808080;
+                font-size: 16px;
+            }
+
+                .footer-center ul li a:hover {
+                    color: #F2F2F2;
+                    text-decoration: none;
+                }
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        max-width: 80%;
+        flex-direction: column;
+        padding-block: 1rem;
+    }
+
+    .logo, .mail-button {
+        width: fit-content;
+    }
+
+    .nav ul {
+        margin-block: 1rem;
+        gap: 48px;
+    }
+
+    .h1-main {
+        max-width: 80%;
+    }
+
+    .h2-main {
+        max-width: 80%;
+    }
+
+    .contact {
+        max-width: 80%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .team {
+        max-width: 80%;
+    }
+
+    .contact-buttons {
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .email {
+        justify-content: center;
+    }
+
+    footer {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        max-width: 90%;
+        flex-direction: column;
+        padding-block: 1rem;
+    }
+
+    .logo, .mail-button {
+        width: fit-content;
+    }
+
+    .nav ul {
+        margin-block: 1rem;
+        gap: 48px;
+    }
+
+
+    .h1-main {
+        max-width: 90%;
+    }
+
+    .h2-main {
+        max-width: 90%;
+    }
+
+    .contact {
+        max-width: 90%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .team {
+        max-width: 90%;
+    }
+
+    .contact-buttons {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    .email {
+        justify-content: center;
+    }
+
+    footer {
+        max-width: 90%;
+    }
+}

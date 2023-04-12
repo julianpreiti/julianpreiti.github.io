@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     animation: fade-in 1s ease forwards;
 }
 
@@ -148,7 +148,7 @@ header {
     }
 
     .card p {
-        color: #333333;
+        color: #808080;
         font-size: 16px;
         font-weight: 500;
         padding-top: 6px;

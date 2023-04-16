@@ -7,10 +7,10 @@
     padding-top: 1.5em;
 }
 
-    .cover-image img {
-        width: 100%;
-        object-fit: cover;
-    }
+.cover-image img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .project-section {
     max-width: 1200px;
@@ -35,15 +35,15 @@
     align-items: center;
 }
 
-    .project-section-list strong {
-        color: #0F0F0F;
-    }
+.project-section-list strong {
+    color: #0F0F0F;
+}
 
-    .project-section-list li {
-        font-size: 18px;
-        margin: 0 20px;
-        color: #333333;
-    }
+.project-section-list li {
+    font-size: 18px;
+    margin: 0 20px;
+    color: #333333;
+}
 
 .steam-project-background {
     background-color: #F0F1F4;
@@ -89,16 +89,16 @@
     font-weight: 600;
 }
 
-    .button-prototype:hover {
-        background-color: #2B52D9;
-        border: 2px solid #2B52D9;
-        transition: ease-in-out 0.3s;
-        color: #F2F2F2;
-    }
+.button-prototype:hover {
+    background-color: #2B52D9;
+    border: 2px solid #2B52D9;
+    transition: ease-in-out 0.3s;
+    color: #F2F2F2;
+}
 
-    .button-prototype:focus {
-        outline: none;
-    }
+.button-prototype:focus {
+    outline: none;
+}
 
 .prototype-title {
     color: #2B52D9;
@@ -116,9 +116,9 @@
     padding-top: 126px;
 }
 
-    .prototype-button-container img {
-        margin-top: 36px;
-    }
+.prototype-button-container img {
+    margin-top: 36px;
+}
 
 .more-projects {
     display: flex;
@@ -158,19 +158,19 @@
     transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-    .project-item:hover {
-        transform: scale(1.05);
-    }
+.project-item:hover {
+    transform: scale(1.05);
+}
 
-    .project-item a {
-        text-decoration: none;
-    }
+.project-item a {
+    text-decoration: none;
+}
 
-    .project-item img {
-        width: 100%;
-        display: block;
-        border-radius: 18px;
-    }
+.project-item img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+}
 
 .steam-research {
     display: flex;
@@ -179,19 +179,19 @@
     margin-top: 56px;
 }
 
-    .steam-research p {
-        max-width: 530px;
-        margin: 20px auto auto auto;
-        color: #0F0F0F;
-        font-size: 18px;
-        line-height: 1.75;
-        font-weight: 400;
-    }
+.steam-research p {
+    max-width: 530px;
+    margin: 20px auto auto auto;
+    color: #0F0F0F;
+    font-size: 18px;
+    line-height: 1.75;
+    font-weight: 400;
+}
 
-    .steam-research img {
-        align-content: center;
-        align-items: center;
-    }
+.steam-research img {
+    align-content: center;
+    align-items: center;
+}
 
 .steam-research-data {
     max-width: 792px;
@@ -223,10 +223,10 @@
     margin: 20px 0;
 }
 
-    .steam-ia p {
-        padding-bottom: 24px;
-        max-width: 600px;
-    }
+.steam-ia p {
+    padding-bottom: 24px;
+    max-width: 600px;
+}
 
 .steam-information-architecture {
     max-width: 1204px;
@@ -242,9 +242,9 @@
     margin: 0 auto;
 }
 
-    .steam-design-system h2 {
-        margin: 20px 0;
-    }
+.steam-design-system h2 {
+    margin: 20px 0;
+}
 
 .steam-uikit {
     min-width: 1206px;
@@ -278,16 +278,72 @@
     line-height: 1.75;
 }
 
-    .steam-text-container p {
-        padding-bottom: 24px;
-    }
+.steam-text-container p {
+    padding-bottom: 24px;
+}
 
-    .steam-screen-features {
-        max-width: 238px;
-    }
+.steam-screen-features {
+    max-width: 238px;
+}
 
 .steam-conclusion-background {
     background-color: #E5EEFF;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+    .project-section {
+        padding: 32px 0;
+    }
+
+    .project-section-title {
+        padding-bottom: 18px;
+    }
+
+    .project-section-list {
+        display: block;
+    }
+
+    .project-section-list li {
+        margin: 8px 0;
+    }
+
+    .project {
+        max-width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .steam-uikit {
+        min-width: 100%
+    }
+
+    .prototype-button-container img {
+        max-height: 100px;
+    }
+
+    .more-projects {
+        padding-top: 120px;
+    }
+
+    .project-list {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .steam-elements-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steam-text-container {
+        max-width: 90%;
+    }
+
+    .steam-design-system p {
+        max-width: 90%;
+    }
 }

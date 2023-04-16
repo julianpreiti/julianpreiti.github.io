@@ -1,4 +1,3 @@
-
 .cover-image {
     display: flex;
     justify-content: center;
@@ -8,10 +7,10 @@
     padding-top: 1.5em;
 }
 
-    .cover-image img {
-        width: 100%;
-        object-fit: cover;
-    }
+.cover-image img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .project-section {
     max-width: 1200px;
@@ -36,15 +35,15 @@
     align-items: center;
 }
 
-    .project-section-list strong {
-        color: #0F0F0F;
-    }
+.project-section-list strong {
+    color: #0F0F0F;
+}
 
-    .project-section-list li {
-        font-size: 18px;
-        margin: 0 20px;
-        color: #333333;
-    }
+.project-section-list li {
+    font-size: 18px;
+    margin: 0 20px;
+    color: #333333;
+}
 
 .uno-project-background {
     background-color: #F6F8FD;
@@ -91,16 +90,17 @@
     font-weight: 600;
 }
 
-    .button-prototype:hover {
-        background-color: #2B52D9;
-        border: 2px solid #2B52D9;
-        transition: ease-in-out 0.3s;
-        color: #F2F2F2;
-    }
+.button-prototype:hover {
+    background-color: #2B52D9;
+    border: 2px solid #2B52D9;
+    transition: ease-in-out 0.3s;
+    color: #F2F2F2;
+}
 
 .button-prototype:focus {
     outline: none;
 }
+
 .more-projects {
     display: flex;
     margin: 0 auto;
@@ -148,11 +148,11 @@
 
 }
 
-    .project-item img {
-        width: 100%;
-        display: block;
-        border-radius: 18px;
-    }
+.project-item img {
+    width: 100%;
+    display: block;
+    border-radius: 18px;
+}
 
 .uno-competitors {
     max-width: 858px;
@@ -162,10 +162,10 @@
     color: #0F0F0F;
 }
 
-    .uno-competitors p {
-        margin: 20px 0 48px 0;
-        font-size: 18px;
-    }
+.uno-competitors p {
+    margin: 20px 0 48px 0;
+    font-size: 18px;
+}
 
 .uno-feedback {
     max-width: 858px;
@@ -176,8 +176,8 @@
     align-items: center;
 }
 
-.uno-feedback h2{
-    margin-bottom : 38px;
+.uno-feedback h2 {
+    margin-bottom: 38px;
     text-align: center;
 }
 
@@ -192,7 +192,7 @@
     align-content: center;
 }
 
-.uno-says h2{
+.uno-says h2 {
     padding-bottom: 42px;
     text-align: center;
 }
@@ -313,6 +313,106 @@
     padding-top: 54px;
 }
 
-    .prototype-button-container img {
-        margin-top: 36px;
+.prototype-button-container img {
+    margin-top: 36px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .project-section {
+        padding: 32px 0;
     }
+
+    .project-section-title {
+        padding-bottom: 18px;
+    }
+
+    .project-section-list {
+        display: block;
+    }
+
+    .project-section-list li {
+        margin: 8px 0;
+    }
+
+    .project {
+        max-width: 90%;
+    }
+
+    .uno-competitors {
+        max-width: 90%;
+    }
+
+    .uno-project-title {
+        font-size: 28px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .uno-onboarding-container img {
+        max-width: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uno-onboarding-images {
+        position: relative;
+        top: 0;
+        max-width: 468px;
+        min-height: 0;
+        max-height: 360px;
+    }
+
+    .uno-onboarding {
+        margin-bottom: 38px;
+    }
+
+    .uno-onboarding-container {
+        background: none;
+    }
+
+    .uno-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uno-elements-container {
+        max-width: 90%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+
+    .uno-elements-container-reversed {
+        max-width: 90%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+
+
+    .uno-text-container {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .more-projects {
+        padding-top: 120px;
+    }
+
+    .project-list {
+        flex-direction: column;
+        max-width: 90%;
+    }
+}

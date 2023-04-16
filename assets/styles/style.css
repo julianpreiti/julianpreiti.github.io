@@ -48,37 +48,37 @@ header {
     width: calc(100% - 304px);
 }
 
-    .logo img:hover {
-        transform: scale(1.2);
-        transition: all 0.3s;
-    }
+.logo img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
 
 .nav {
     position: relative;
 }
 
-    .nav ul {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 36px;
-    }
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
 
 .nav-link {
     list-style: none;
     text-align: center;
 }
 
-    .nav-link a {
-        font-size: 20px;
-        font-weight: 600;
-        color: #4D4D4D;
-        text-decoration: none;
-    }
+.nav-link a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-decoration: none;
+}
 
-        .nav-link a:hover {
-            color: #0F0F0F;
-        }
+.nav-link a:hover {
+    color: #0F0F0F;
+}
 
 .mail-button {
     text-decoration: none;
@@ -89,9 +89,9 @@ header {
     width: calc(100% - 304px);
 }
 
-    .mail-button:hover {
-        color: #0F0F0F;
-    }
+.mail-button:hover {
+    color: #0F0F0F;
+}
 
 .h1-main {
     padding-top: 54px;
@@ -131,32 +131,32 @@ header {
     transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-    .card a {
-        color: inherit;
-        text-decoration: none;
-    }
+.card a {
+    color: inherit;
+    text-decoration: none;
+}
 
-    .card img {
-        max-width: 576px;
-    }
+.card img {
+    max-width: 576px;
+}
 
-    .card h3 {
-        color: #0F0F0F;
-        font-size: 20px;
-        font-weight: 600;
-        padding-top: 8px;
-    }
+.card h3 {
+    color: #0F0F0F;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 8px;
+}
 
-    .card p {
-        color: #808080;
-        font-size: 16px;
-        font-weight: 500;
-        padding-top: 6px;
-    }
+.card p {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 6px;
+}
 
-    .card:hover {
-        transform: scale(1.05);
-    }
+.card:hover {
+    transform: scale(1.05);
+}
 
 .container-about {
     display: flex;
@@ -180,9 +180,9 @@ header {
     color: #0F0F0F;
 }
 
-    .about-h1 span {
-        font-size: 1em;
-    }
+.about-h1 span {
+    font-size: 1em;
+}
 
 .about-me {
     width: 100%;
@@ -191,17 +191,17 @@ header {
     line-height: 1.5;
 }
 
-    .about-me a {
-        text-decoration: none;
-        color: #64B6DC;
-        font-size: 18px;
-    }
+.about-me a {
+    text-decoration: none;
+    color: #64B6DC;
+    font-size: 18px;
+}
 
-    .about-me p {
-        text-align: left;
-        margin-bottom: 0.5em;
-        font-size: 18px;
-    }
+.about-me p {
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+}
 
 .contact-background {
     background-color: #1C1D20;
@@ -247,15 +247,15 @@ header {
     font-weight: 600;
 }
 
-    .email:hover {
-        background-color: #990411;
-        border: 2px solid #990411;
-        transition: ease-in-out 0.3s;
-    }
+.email:hover {
+    background-color: #990411;
+    border: 2px solid #990411;
+    transition: ease-in-out 0.3s;
+}
 
-    .email:focus {
-        outline: none;
-    }
+.email:focus {
+    outline: none;
+}
 
 
 .linkedin {
@@ -324,27 +324,27 @@ footer {
     text-align: center;
 }
 
-    .footer-center ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-        .footer-center ul li {
-            display: inline-block;
-            margin: 0 10px;
-        }
+.footer-center ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
 
-            .footer-center ul li a {
-                text-decoration: none;
-                color: #808080;
-                font-size: 16px;
-            }
+.footer-center ul li a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+}
 
-                .footer-center ul li a:hover {
-                    color: #F2F2F2;
-                    text-decoration: none;
-                }
+.footer-center ul li a:hover {
+    color: #F2F2F2;
+    text-decoration: none;
+}
 
 .footer-right {
     flex: 1;
@@ -360,7 +360,8 @@ footer {
         padding-block: 1rem;
     }
 
-    .logo, .mail-button {
+    .logo,
+    .mail-button {
         width: fit-content;
     }
 
@@ -402,50 +403,94 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+
     header {
         max-width: 90%;
         flex-direction: column;
         padding-block: 1rem;
     }
 
-    .logo, .mail-button {
+    .portfolio {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .logo,
+    .mail-button {
         width: fit-content;
     }
 
     .nav ul {
         margin-block: 1rem;
-        gap: 48px;
+        gap: 28px;
     }
-
 
     .h1-main {
         max-width: 90%;
+        text-align: center;
+        font-size: 52px;
     }
 
     .h2-main {
         max-width: 90%;
+        text-align: center;
     }
 
     .contact {
-        max-width: 90%;
+        max-width: 80%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 82px;
+        padding-bottom: 62px;
     }
 
     .team {
-        max-width: 90%;
+        max-width: 80%;
+        padding-left: 0;
+    }
+
+    .team h3 {
+        font-size: 24px;
+        margin-top: 24px;
+        text-align: center;
     }
 
     .contact-buttons {
-        max-width: 90%;
+        max-width: 100%;
         flex-direction: column;
+        gap: 34px;
+        align-self: center;
+
     }
 
     .email {
         justify-content: center;
     }
 
+    .linkedin {
+        justify-content: center;
+    }
+
     footer {
-        max-width: 90%;
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .footer-center {
+        margin: 14px 0;
+    }
+
+    .footer-right {
+        gap: 32px;
     }
 }

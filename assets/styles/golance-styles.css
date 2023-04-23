@@ -416,6 +416,10 @@
         align-items: center;
     }
 
+    .gl-users h2 {
+        padding-bottom: 24px;
+    }
+
     .gl-wireframes-title {
         display: flex;
         flex-direction: column;

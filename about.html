@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K3PD2K384N"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-K3PD2K384N');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Viewport para dispositivos con ancho de pantalla máximo de 768px -->
-    <meta name="viewport" content="width=768">
-    <!-- Viewport para dispositivos con ancho de pantalla máximo de 480px -->
-    <meta name="viewport" content="width=480">
-    <title>About | Julian Preiti</title>
-    <meta name="description"
-        content="Learn more about Julian Preiti, a UX/UI Designer based in Buenos Aires, Argentina, who aspires to be part of innovative projects and contributes with a unique perspective to each design challenge. With over a year of experience creating innovative experiences for national and international clients">
-    <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="icon" href="assets/img/illustration.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Julian Preiti</title>
+  <meta name="description" content="About Julian Preiti — Systems Analyst focused on automation, backend and frontend development" />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/img/logo.svg" alt="logo">
-        </div>
-        <nav class="nav">
-            <ul>
-                <li class="nav-link"><a href="/">Home</a></li>
-                <li class="nav-link"><a href="/">Work</a></li>
-                <li class="nav-link"><a href="about">About</a></li>
-                <li class="nav-link"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="mailto:julianpreiti@hotmail.com" class="mail-button" target="_blank">julianpreiti@hotmail.com</a>
-    </header>
-    <div class="container-about">
-        <div class="text-about">
-            <h1 class="about-h1">Hi, I’m Julian <span>&#x1F60A;</span></h1>
-            <div class="about-me">
-                <p>I'm a UX/UI Designer who aspire to be part of innovative projects to contribute with my grain of sand
-                    to the world we live in. When I was 15 years old I met the UX/UI. Today, after more than 6 years I
-                    am creating experiences with national and international clients with more than 1 year of experience.
-                </p>
-                <p>Let's team up and create amazing experiences together!</p>
-                <p>Reach me at <a href="mailto:julianpreiti@hotmail.com">email</a> or find me on <a
-                        href="https://www.linkedin.com/in/julianpreiti/" target="_blank">LinkedIn</a></p>
-            </div>
-        </div>
-        <img src="assets/img/illustration.svg" class="illustration" alt="illustration">
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="assets/mate.svg" alt="" class="logo-icon" />
+        <span>julianpreiti</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button type="button" class="mail-copy copy-email" aria-label="Copy email">
+        julianpreiti@gmail.com
+        <span class="copy-tooltip" role="status" aria-live="polite">Copied</span>
+      </button>
     </div>
-    <section id="contact">
-        <div class="contact-background">
-            <div class="contact">
-                <img class="perfil" id="profile" src="assets/img/julianpreiti.svg">
-                <div class="team">
-                    <h3>Let's team up and create amazing experiences together</h3>
-                    <div class="contact-buttons">
-                        <a class="email" href="mailto:julianpreiti@hotmail.com">julianpreiti@hotmail.com</a>
-                        <a class="linkedin" href="https://www.linkedin.com/in/julianpreiti/" target="_blank"><span
-                                class="linkedin-text"><img class="linkedin-icon"
-                                    src="assets/img/in-white.svg">julianpreiti</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1>About</h1>
     </section>
-    <div class="footer-container">
-        <footer>
-            <div class="footer-left">
-                <p>&copy; 2023 Julian Preiti</p>
-            </div>
-            <div class="footer-center">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Work</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-right">
-                <a href="https://www.linkedin.com/in/julianpreiti/" target="_blank">
-                    <img src="assets/img/in.svg" alt="Logo de LinkedIn">
-                </a>
 
-                <a href="mailto:julianpreiti@hotmail.com" target="_blank">
-                    <img src="assets/img/mail.svg" alt="Logo de LinkedIn">
-                </a>
-            </div>
-        </footer>
+    <section class="wrap about-intro">
+      <div class="profile-photo">
+        <img src="assets/pfp.png" alt="Julian Preiti" />
+      </div>
+      <div class="prose">
+        <p>
+          I'm a backend-oriented full-stack developer with a Systems Analyst background —
+          that's where I learned to treat software as a way to fix broken processes, not
+          just ship features. It started with turning repetitive Zendesk tickets and
+          network-ops workflows into scripts and integrations, and it's the same instinct
+          I bring to development now.
+        </p>
+        <p>
+          I build with Java and Spring Boot on the backend, React on the frontend, and
+          I'm comfortable owning a problem end to end — from the data model to the API
+          to the interface people actually use.
+        </p>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="section-head">
+        <h2>Stack</h2>
+      </div>
+      <div class="info-grid">
+        <div class="info-card">
+          <span class="label">Backend</span>
+          <span class="value">Java · Spring Boot · Node.js · REST APIs · JUnit</span>
+        </div>
+        <div class="info-card">
+          <span class="label">Frontend</span>
+          <span class="value">React · TypeScript · JavaScript</span>
+        </div>
+        <div class="info-card">
+          <span class="label">Databases</span>
+          <span class="value">PostgreSQL · SQL</span>
+        </div>
+        <div class="info-card">
+          <span class="label">Cloud &amp; DevOps</span>
+          <span class="value">AWS · Docker</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Julian Preiti</span>
+      <button type="button" class="footer-email copy-email">
+        julianpreiti@gmail.com
+        <span class="copy-tooltip" role="status" aria-live="polite">Copied</span>
+      </button>
     </div>
-</body>
+  </footer>
 
+  <script src="script.js"></script>
+</body>
 </html>
